@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+body{
+    font-family: "Open Sans", Sans-serif ;
+    background-color: hsl(257, 40%, 49%);
+}
+
+section div{
+    display: flex;
+    flex-direction: column;
+}
+p,h1{
+    color: white;
+}
+h1, button{
+    font-family: "Poppins", sans-serif!important;
+    font-weight: 600;
+
+}
+button{
+    font-weight: 400;
+    
+}
+button:hover{
+    background-color: hsl(300, 69%, 71%);
+}
+.fa-twitter:hover{
+    color: hsl(300, 69%, 71%);
+}
+.fa-facebook:hover{
+    color: hsl(300, 69%, 71%);
+}
+.fa-instagram:hover{
+    color: hsl(300, 69%, 71%);
+}
+
+@media(min-width: 1024px){
+    body{
+        overflow: hidden;
+    }
+}
